@@ -1,0 +1,16 @@
+PODS:
+  - BTViewState (0.1.0)
+
+DEPENDENCIES:
+  - BTViewState (from `../`)
+
+EXTERNAL SOURCES:
+  BTViewState:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTViewState: 3ecd2e2235aa6132a623d456d8d2ef162388d280
+
+PODFILE CHECKSUM: dccf07019480f84d4de2b5e83ae92a76dd63e901
+
+COCOAPODS: 1.5.0

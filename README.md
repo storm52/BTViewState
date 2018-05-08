@@ -22,7 +22,7 @@ pod 'BTViewState'
 
 ## Author
 
-xcode, liuwuxiong@btb.com
+ liuwuxiong@btb.com
 
 ## License
 

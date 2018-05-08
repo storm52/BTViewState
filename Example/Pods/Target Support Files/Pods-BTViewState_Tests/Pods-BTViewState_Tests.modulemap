@@ -1,0 +1,6 @@
+framework module Pods_BTViewState_Tests {
+  umbrella header "Pods-BTViewState_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

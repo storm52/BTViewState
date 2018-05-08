@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0AE7A375BECE8A9149713311 /* Pods_BTViewState_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTViewState_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDC6AC994E650627CFD4520 /* Pods-BTViewState_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTViewState_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTViewState_Tests/Pods-BTViewState_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4353D006FE31B06764E94BC0 /* BTViewState.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BTViewState.podspec; path = ../BTViewState.podspec; sourceTree = "<group>"; };
+		4353D006FE31B06764E94BC0 /* BTViewState.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTViewState.podspec; path = ../BTViewState.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DAB6E142FEB8277A85C6D34 /* Pods-BTViewState_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTViewState_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTViewState_Example/Pods-BTViewState_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BTViewState_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTViewState_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77F6E2011B42EA84B8D3B669 /* Pods-BTViewState_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTViewState_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTViewState_Example/Pods-BTViewState_Example.release.xcconfig"; sourceTree = "<group>"; };
-		784DE3EEF0040736C64A7563 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		784DE3EEF0040736C64A7563 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1DE447BF015FCFE652A9EF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A1DE447BF015FCFE652A9EF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A5F7F45EAABEB89003B29BD6 /* Pods-BTViewState_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTViewState_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTViewState_Tests/Pods-BTViewState_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB6447B22A81154B23CC243B /* Pods_BTViewState_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTViewState_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

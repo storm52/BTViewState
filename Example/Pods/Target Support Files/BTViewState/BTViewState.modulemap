@@ -1,0 +1,6 @@
+framework module BTViewState {
+  umbrella header "BTViewState-umbrella.h"
+
+  export *
+  module * { export * }
+}

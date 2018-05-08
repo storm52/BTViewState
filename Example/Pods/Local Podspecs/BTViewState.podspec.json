@@ -1,0 +1,22 @@
+{
+  "name": "BTViewState",
+  "version": "0.1.0",
+  "summary": "A short description of BTViewState.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xcode/BTViewState",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xcode": "liuwuxiong@btb.com"
+  },
+  "source": {
+    "git": "https://github.com/xcode/BTViewState.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BTViewState/Classes/**/*"
+}
