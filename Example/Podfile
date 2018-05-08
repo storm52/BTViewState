@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BTViewState_Example' do
+  pod 'BTViewState', :path => '../'
+
+  target 'BTViewState_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
