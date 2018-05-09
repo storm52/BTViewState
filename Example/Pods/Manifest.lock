@@ -1,15 +1,22 @@
 PODS:
-  - BTViewState (0.1.0)
+  - BTViewState (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - BTViewState (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   BTViewState:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTViewState: 3ecd2e2235aa6132a623d456d8d2ef162388d280
+  BTViewState: 7c5556707ee46685ddf55d3833ab5a60d24cb084
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: dccf07019480f84d4de2b5e83ae92a76dd63e901
 

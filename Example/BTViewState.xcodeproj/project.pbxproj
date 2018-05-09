@@ -24,6 +24,9 @@
 		84BA67AA7416793D0D2C3A01 /* Pods_BTViewState_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE7A375BECE8A9149713311 /* Pods_BTViewState_Example.framework */; };
 		86925A9507D72213791801FA /* Pods_BTViewState_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6447B22A81154B23CC243B /* Pods_BTViewState_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AE29E67120A29F0900972FF0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29E67020A29F0900972FF0 /* TestViewController.m */; };
+		AE29E67520A2A0E000972FF0 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29E67320A2A0E000972FF0 /* MoreViewController.m */; };
+		AE29E67620A2A0E000972FF0 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE29E67420A2A0E000972FF0 /* MoreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1DE447BF015FCFE652A9EF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A5F7F45EAABEB89003B29BD6 /* Pods-BTViewState_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTViewState_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTViewState_Tests/Pods-BTViewState_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE29E66F20A29F0900972FF0 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AE29E67020A29F0900972FF0 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		AE29E67220A2A0E000972FF0 /* MoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		AE29E67320A2A0E000972FF0 /* MoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		AE29E67420A2A0E000972FF0 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
 		FB6447B22A81154B23CC243B /* Pods_BTViewState_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTViewState_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +148,11 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				AE29E66F20A29F0900972FF0 /* TestViewController.h */,
+				AE29E67020A29F0900972FF0 /* TestViewController.m */,
+				AE29E67220A2A0E000972FF0 /* MoreViewController.h */,
+				AE29E67320A2A0E000972FF0 /* MoreViewController.m */,
+				AE29E67420A2A0E000972FF0 /* MoreViewController.xib */,
 			);
 			name = "Example for BTViewState";
 			path = BTViewState;
@@ -276,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE29E67620A2A0E000972FF0 /* MoreViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -338,10 +352,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BTViewState_Example/Pods-BTViewState_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BTViewState/BTViewState.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTViewState.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -357,7 +373,9 @@
 			files = (
 				6003F59E195388D20070C39A /* BTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BTViewController.m in Sources */,
+				AE29E67120A29F0900972FF0 /* TestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AE29E67520A2A0E000972FF0 /* MoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,14 @@
 //
 
 #import "BTAppDelegate.h"
+#import <BTViewState/UIView+State.h>
 
 @implementation BTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [BTViewStateProperty setImageNoData:[UIImage imageNamed:@"Common_problem_none records"] error:[UIImage imageNamed:@"Common_problem_no data"] network:[UIImage imageNamed:@"Common_problem_network"]];
+    [BTViewStateProperty setTitleNoData:@"暂无记录" error:@"失败" network:@"网络错误"];
     return YES;
 }
 

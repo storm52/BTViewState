@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "BTViewStateProperty.h"
+#import "UIView+State.h"
 
 FOUNDATION_EXPORT double BTViewStateVersionNumber;
 FOUNDATION_EXPORT const unsigned char BTViewStateVersionString[];
