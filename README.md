@@ -4,9 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/BTViewState.svg?style=flat)](https://cocoapods.org/pods/BTViewState)
 [![License](https://img.shields.io/cocoapods/l/BTViewState.svg?style=flat)](https://cocoapods.org/pods/BTViewState)
 [![Platform](https://img.shields.io/cocoapods/p/BTViewState.svg?style=flat)](https://cocoapods.org/pods/BTViewState)
-![image](https://github.com/storm52/BTViewState/blob/master/demo.gif)
-## Example
 
+## Example
+![image](https://github.com/storm52/BTViewState/blob/master/demo.gif)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## 使用
@@ -37,7 +37,7 @@ tableView.stateProperties.noDataActionBlock = ^{
 };
 view.stateProperties.labelOffset = -20;
 
-tableView.stateProperties setImage:UIImage.new forLoadState:BTViewStateNoData];
+[tableView.stateProperties setImage:UIImage.new forLoadState:BTViewStateNoData];
 
 ```
 更多等......你探索
