@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BTViewState'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'UIView显示网络失败，没有数据，其他错误状态，甚至加载中...'
 
 # This description is used to generate tags and improve search results.
