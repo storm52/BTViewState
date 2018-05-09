@@ -27,6 +27,21 @@ button.viewState = BTViewStateLoading;
 
 ```
 
+更多视图属性设置
+```
+
+tableView.stateProperties.loadingAreaInsets = UIEdgeInsetsMake(152, 0, 0, 0);
+tableView.stateProperties.contentVerticalOffset = -75;
+tableView.stateProperties.noDataActionBlock = ^{
+    [weakSelf reloadData];
+};
+view.stateProperties.labelOffset = -20;
+
+tableView.stateProperties setImage:UIImage.new forLoadState:BTViewStateNoData];
+
+```
+更多等......你探索
+
 ## Installation
 
 BTViewState is available through [CocoaPods](https://cocoapods.org). To install
