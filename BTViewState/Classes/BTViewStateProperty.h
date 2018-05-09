@@ -33,7 +33,7 @@ typedef void (^NoDataActionBlock)(void);
 
 @property(nonatomic,assign)CGFloat indicatorOffsetX;
 @property(nonatomic,assign)CGFloat indicatorOffsetY;
-@property(nonatomic,assign)CGFloat indicatorAlpha;
+@property(nonatomic,assign)CGFloat indicatorAlpha;//加载的背景alpha,默认0.7
 
 -(void)setImage:(UIImage *)image forLoadState:(BTViewState)loadState;
 - (UIImage *)imageForState:(BTViewState)loadState;

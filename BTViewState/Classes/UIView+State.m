@@ -203,7 +203,7 @@ const char * kErrorStateViewKey = "kErrorStateViewKey";
 -(UIView*)loadingView{
     if (objc_getAssociatedObject(self, _cmd)==nil) {
         UIView *bgView=UIView.new;
-        bgView.backgroundColor=[UIColor colorWithRed:1 green:1 blue:1 alpha:self.stateProperties.indicatorAlpha];
+        bgView.backgroundColor=[UIColor colorWithRed:1 green:1 blue:1 alpha:self.stateProperties.indicatorAlpha?:0.7];
         UIView *customerView=[self.stateProperties customerViewForLoadState:BTViewStateLoading];
         if (customerView) {
             [bgView addSubview:customerView];
