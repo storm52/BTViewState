@@ -19,7 +19,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```
 指定视图状态
 ```
-self.view.viewState = BTViewStateLoading;
+self.view.viewState = BTViewStateLoading;//加载中
+self.view.viewState = BTViewStateDefault;//去除状态图，显示正常界面与数据等
 
 tableView.viewState = BTViewStateLoading;
 
