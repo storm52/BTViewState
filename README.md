@@ -56,7 +56,7 @@ pod 'BTViewState'
 
 ## Author
 
- liuwuxiong@btb.com
+storm52@qq.com
 
 ## License
 
